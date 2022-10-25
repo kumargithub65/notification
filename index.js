@@ -31,7 +31,7 @@ document.addEventListener("visibilitychange", () => {
         body: "kumar is waiting for you",
         timestamp: Math.floor(Date.now()),
       });
-    }, 250000);
+    }, 2500);
   } else {
     if (interval) clearInterval(interval);
     if (notification) notification.close();
