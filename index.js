@@ -6,19 +6,10 @@ value.addEventListener("click", () => {
   let notification = Notification.requestPermission()
     .then((perm) => {
       if (perm === "granted") {
-        new Notification("example", {
-          body: "this. im s more work yaer",
+        new Notification("hi  this is kumar", {
+          body: "thanks for enabling notifications",
         });
-        new Notification("example", {
-          body: "this. im s more work yaer",
-        });
-
-        new Notification("giugu", {
-          body: "this. im s more work yaer",
-        });
-        new Notification("chpk", {
-          body: "this. im s more work yaer",
-        });
+     
       } else {
         alert("please enable notification");
       }
@@ -34,11 +25,11 @@ document.addEventListener("visibilitychange", () => {
   let dates = ne;
   if (document.visibilityState === "hidden") {
     interval = setInterval(() => {
-      notification = new Notification("come back please", {
-        body: "please come bacck",
+      notification = new Notification("please visit page ", {
+        body: "kumar is waiting for you",
         timestamp: Math.floor(Date.now()),
       });
-    }, 25000);
+    }, 250000);
   } else {
     if (interval) clearInterval(interval);
     if (notification) notification.close();
