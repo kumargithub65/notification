@@ -1,0 +1,25 @@
+* {
+  margin: auto;
+}
+.child {
+  background-color: rgba(90, 214, 214, 0.266);
+
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* it center the item vertically */
+  justify-content: center;
+  padding: 20px;
+}
+
+.di {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
