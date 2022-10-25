@@ -9,7 +9,9 @@ value.addEventListener("click", () => {
         new Notification("hi  this is kumar", {
           body: "thanks for enabling notifications",
         });
-     
+       new Notification("hi  happy  to check you again", {
+          body: "hacked",
+        });
       } else {
         alert("please enable notification");
       }
